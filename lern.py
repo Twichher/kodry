@@ -10,10 +10,10 @@ a[n-1], a[0] = a[0], a[n-1]
 
 for i in a:
 	print(*i)
+print('hello git')
+print(*a[n-1])
 
-# print(*a[n-1])
+for i in a[1:n-1]:
+	print(*i)
 
-# for i in a[1:n-1]:
-# 	print(*i)
-
-# print(*a[0])
+print(*a[0])
